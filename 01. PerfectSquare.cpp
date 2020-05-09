@@ -1,4 +1,5 @@
 bool isPerfectSquare(int num) {
+// 0.    My way, takes too long, not accepted
     // if(num == 1)
     //     return true;
     // for(int i=1; i<=num/2; i++){
@@ -7,11 +8,13 @@ bool isPerfectSquare(int num) {
     // }
     // return false;
 
-
+// 1.    USING squrt function
+    
     // long double sr = sqrt(num); 
     // return ((sr - floor(sr)) == 0); 
 
-
+// 2.     MID Bisection Method
+    
     // if(num == 1)
     //     return true;
     // int l=0,r=num;
@@ -27,7 +30,7 @@ bool isPerfectSquare(int num) {
     // }
     // return false;
 
-//         BEST METHOD
+// 3.        BEST METHOD
 //         A square is 1+3+5+7+9................(2n+1)
     int sum=1;
     while(num>0){
