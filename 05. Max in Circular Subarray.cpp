@@ -1,5 +1,6 @@
 /*
-
+         SEE KADANE'S ALGORITHM
+         
 EXPLANATION:-
 EX 1:-
    A = [1, -2, 3, -2]
